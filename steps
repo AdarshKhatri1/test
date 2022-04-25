@@ -1,0 +1,17 @@
+Setup your name and email using the git config command.
+Part-1
+Create a folder called test
+Initialize test folder with an empty repository (Hint: use git init)
+Part-2
+Create a file called name.txt inside test folder (Use any text editor to create the file with your name in that file)
+Add the file name.txt to git (HINT: use git add command)
+Check the status of the name.txt file using git status command
+Commit the changes to git with the message "Name File" (HINT: use git commit -m command)
+Part-3
+Go to http://github.com and create a new repository called test (NOTE: Don't tick the option Initialize this repository with a README)
+Add the newly created repository as remote to git repo in test folder (HINT: use git remote command)
+Sync the local commit to the remote repo (HINT: use git push command)
+Go to the repo page on http://github.com and see if you can see the name file in the repository
+Part-4
+Create a file called age.txt inside test folder (Use any text editor to create the file with your name in that file)
+Sync the file age.txt to the online repo (HINT: Remember the steps add commit push)
